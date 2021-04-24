@@ -3,21 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rons Visualization Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href+"https://maxcden.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJ1SAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJ1SAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
     <!-- CSS Link-->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 <!--Navigation Section-->
     <div class="navigation">
         <nav class= "navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" style="background-color:#20c997;" href="index.html">Latitude</a>
-    <h1>Latitude</h1>
+            <a class="navbar-brand" style="background-color:#0BADA6;" href="index.html">Latitude</a>
+            <button class="navbar-toggler border border-white" type="button" data-toggle="collaps" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        "
+                        Plots
+                        "
+                    ::after
+                    </a>
+                    <div class="dropdwon-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="max temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind speed.html">Wind Speed</a>
+                    </div>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="comparisons.html">Comparison</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
 <!-- Content Section -->
 <div class="container">
     <div class="row">
