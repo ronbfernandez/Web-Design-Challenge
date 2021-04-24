@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rons Visualization Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJ1SAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
@@ -13,7 +13,7 @@
 </head>
 
 <body>
-<!--Navigation Section-->
+  <!--Navigation Section-->
     <div class="navigation">
         <nav class= "navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" style="background-color:#0BADA6;" href="index.html">Latitude</a>
@@ -53,53 +53,62 @@
         <div class="col-lg-7 col-md-12">
             <!-- Left box -->
             <div class="box">
-                <h3 class"title">Summary: Latitude vs. X</h3>
+                <h3 class="title">Summary: Latitude vs. X</h3>
                 <hr>
                 <img src="Resources/assets/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">  
 
 
-                <p>The purpose of this project was to analyze how weather changes as you get close to the equator.
+              <p>
+                  "The purpose of this project was to analyze how weather changes as you get close to the equator.
             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
-            on over 500 cities.
-        </p>
+            on over 500 cities."
+              </p>
         
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+              <p>
+                  "After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
             Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the
             source data and visuatizations created as part of the analysis, as well as explanations and descriptions
-            of any trends and correlations found. 
-    </p>
-</div>
-</div>
-<div class="col-lg-5 col-md-12">
-<!--Right Box-->
-<div class="box">
-    <h5 class="title">Visualizations</h5>
-    <hr>
-    <div class="container">
-     <div class="row" style="padding-bottom: 30px;">
-        <div class="col-6">
-            <a href="max temperature.html">
-                <img class="panel" src="Resources/assets/Fig1.png" alt="Max Temperature Image">
-            </a>
+            of any trends and correlations found." 
+              </p>
+            </div>
         </div>
-            <div class="col-6">
-        <a href="humidity.html">
-            <img class="panel" src="Resources/assets/Fig2.png" alt="Humidity Graph">
-        </a>
-     </div>
-    </div>
-  <div class="row" style="padding-bottom; 30px;">
-    <div class="col-6">
-       <a ref="cloudiness.html">
-        <img class="panel" src="Resources/assets/Fig3.png" alt="Cloudiness Graph">
-        </a>
-    </div>
-  <div class="col-6">
-    <a href="wind_speed.html"> 
-        <img class="panel" src="Resources/assets/Fig4.png" alt="Wind Speed Graph">
-    </a>
-  </div>
+        <div class="col-lg-5 col-md-12">
+            <!-- Right Box -->
+            <div class="box">
+                <h5 class="title">Visualizations</h5>
+                <hr>
+                <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                       <div class="col-6">
+                        <a href="max temperature.html">
+                            <img class="panel" src="Resources/assets/Fig1.png" alt="Max Temperature Image">
+                        </a>
+                      </div>
+                        <div class="col-6">
+                    <a href="humidity.html">
+                        <img class="panel" src="Resources/assets/Fig2.png" alt="Humidity Graph">
+                    </a>
+                       </div>
+                    </div>
+              <div class="row" style="padding-bottom; 30px;">
+                <div class="col-6">
+                   <a ref="cloudiness.html">
+                    <img class="panel" src="Resources/assets/Fig3.png" alt="Cloudiness Graph">
+                    </a>
+                </div>
+              <div class="col-6">
+                <a href="wind_speed.html"> 
+                    <img class="panel" src="Resources/assets/Fig4.png" alt="Wind Speed Graph">
+                </a>
+              </div>
 
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
+
 </html>
